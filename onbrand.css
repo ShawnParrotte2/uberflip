@@ -51,6 +51,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#397999', end
     
 }
 
+#footer-outer .widget.widget_nav_menu li a { font-family:"Avenir LT Std 45 Book"; }
+
 /**
 *   Bug Fixes
 */
