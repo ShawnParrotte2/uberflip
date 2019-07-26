@@ -42,10 +42,8 @@ body {
     font-family: "Avenir LT Std 35 Light";
 }
 
-body #footer-outer {
+body #injected-footer #footer-outer {
 
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#397999+0,4898be+100 */
-background: #397999; /* Old browsers */
 background: -moz-linear-gradient(top,  #397999 0%, #4898be 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #397999 0%,#4898be 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #397999 0%,#4898be 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
