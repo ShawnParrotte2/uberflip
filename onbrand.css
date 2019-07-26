@@ -137,9 +137,9 @@ body .col.extrabuttons .seeitlive {
 }
 
 .hubs-frontend .hubs-load-more .btn {
-    background: #FDBF2D;
+    background: #27CFC3;
     border: none;
-    border-bottom: 2px solid #eDaF1D;
+    border-bottom: 2px solid #17BFB3;
     text-decoration: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -147,4 +147,12 @@ body .col.extrabuttons .seeitlive {
     color: #fff;
     text-shadow: none;
     cursor: pointer;
+}
+
+.hubs-frontend .hubs-load-more .btn:hover {
+    background: #27CFC3;
+}
+
+.icon-chevron-down {
+    background-position: -303px -109px !important;
 }
