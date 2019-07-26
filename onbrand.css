@@ -127,3 +127,11 @@ body > header .large-header {
 body:not(.hub-page) #hubs-container {
     margin-top: 90px !important;
 }
+
+body .col.extrabuttons .seeitlive {
+    background-color: #FDBF2D;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: 2px solid #FDBF2D;
+}
