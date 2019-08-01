@@ -7,14 +7,14 @@ window.onbrandLoaded = false;
 
     /* Insert Header */
     $.ajax({
-        url: 'https://raw.githubusercontent.com/ShawnParrotte2/uberflip/master/header.html',
+        url: 'https://rawcdn.githack.com/ShawnParrotte2/uberflip/132648eedeb5885b531e0159a08ddca4d940a2e6/header.html',
     }).done(function(data) {
         $('body').prepend(data);
     });
 
     /* Insert Footer */
     $.ajax({
-        url: 'https://raw.githubusercontent.com/ShawnParrotte2/uberflip/master/footer.html',
+        url: 'https://rawcdn.githack.com/ShawnParrotte2/uberflip/132648eedeb5885b531e0159a08ddca4d940a2e6/footer.html',
     }).done(function(data) {
         $('body > footer').remove();
         $('body').append(data);
